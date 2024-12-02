@@ -1,0 +1,54 @@
+{
+    "name": "XRInputActions",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "0f8a3f1b-ac32-48ef-bb2c-ace2216e63c1",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Button",
+                    "id": "520b2986-1a25-44c8-ab41-3b2250b10fbe",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Look",
+                    "type": "Button",
+                    "id": "a9b84362-eaab-4e45-9a9f-4277593a3d72",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "300c45a4-faa1-47bd-a00a-5f1f19e5bccc",
+                    "path": "<XRController>{LeftHand}/thumbstick",
+                    "interactions": "Hold",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fd609041-9dac-4052-a7d4-c19683765994",
+                    "path": "<XRController>{RightHand}/thumbstick",
+                    "interactions": "Hold",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Look",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
